@@ -52,7 +52,6 @@
 		DDC9269D1ABBB14D00CAF1CC /* HTTPUpLoadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC9269C1ABBB14D00CAF1CC /* HTTPUpLoadFile.m */; };
 		DDC926A01ABBB17300CAF1CC /* Upload.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC9269F1ABBB17300CAF1CC /* Upload.xib */; };
 		DDC926A41ABBB1E300CAF1CC /* UserFB.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC926A31ABBB1E300CAF1CC /* UserFB.m */; };
-		DDC926A71ABBB25100CAF1CC /* UI69.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC926A61ABBB25100CAF1CC /* UI69.xcassets */; };
 		DDC926AB1ABBD01500CAF1CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC926AA1ABBD01500CAF1CC /* CoreLocation.framework */; };
 		DDE0B3131ABC4D9D0096AAE7 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B3121ABC4D9D0096AAE7 /* Test.m */; };
 		DDE0B3341ABC4F520096AAE7 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B3161ABC4F520096AAE7 /* MKAnnotationView+WebCache.m */; };
@@ -151,7 +150,6 @@
 		DDC9269F1ABBB17300CAF1CC /* Upload.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Upload.xib; sourceTree = "<group>"; };
 		DDC926A21ABBB1E300CAF1CC /* UserFB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserFB.h; sourceTree = "<group>"; };
 		DDC926A31ABBB1E300CAF1CC /* UserFB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFB.m; sourceTree = "<group>"; };
-		DDC926A61ABBB25100CAF1CC /* UI69.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UI69.xcassets; sourceTree = "<group>"; };
 		DDC926AA1ABBD01500CAF1CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DDE0B3111ABC4D9D0096AAE7 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		DDE0B3121ABC4D9D0096AAE7 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
@@ -465,7 +463,6 @@
 		DDC926A51ABBB23D00CAF1CC /* IMGSource */ = {
 			isa = PBXGroup;
 			children = (
-				DDC926A61ABBB25100CAF1CC /* UI69.xcassets */,
 			);
 			path = IMGSource;
 			sourceTree = "<group>";
@@ -609,7 +606,6 @@
 				DD7238E71ABBB0C8004D70FE /* Main.storyboard in Resources */,
 				DDC2E7E11ABC17DE00EF5582 /* GooglePlus.bundle in Resources */,
 				DDB0A2D41AC2A94A003BFF67 /* Tabbar.xib in Resources */,
-				DDC926A71ABBB25100CAF1CC /* UI69.xcassets in Resources */,
 				DDB0A2FA1AC2FD13003BFF67 /* LoginRequest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
