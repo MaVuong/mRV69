@@ -25,6 +25,10 @@
     
     UIButton *bt2=viewft.subviews[1];
     [bt2 addTarget:self action:@selector(GoogleLogin:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
