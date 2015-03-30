@@ -23,7 +23,6 @@
     lbbmail.text=[NSString stringWithFormat:@"Email: %@",[self.dict valueForKey:@"email"]];
     lbaccountype.text=[NSString stringWithFormat:@"AcountType:%@",[self.dict valueForKey:@"account"]];
     
-    
 }
 
 - (IBAction)actionUPloadAvata:(id)sender {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1B2CA11AC92AD100774D3E /* Detail.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1B2CA01AC92AD100774D3E /* Detail.xcassets */; };
 		DD7238D41ABBB0C8004D70FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7238D31ABBB0C8004D70FE /* Foundation.framework */; };
 		DD7238D61ABBB0C8004D70FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7238D51ABBB0C8004D70FE /* CoreGraphics.framework */; };
 		DD7238D81ABBB0C8004D70FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7238D71ABBB0C8004D70FE /* UIKit.framework */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD1B2CA01AC92AD100774D3E /* Detail.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Detail.xcassets; sourceTree = "<group>"; };
 		DD7238D01ABBB0C8004D70FE /* RaoVat69.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaoVat69.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7238D31ABBB0C8004D70FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD7238D51ABBB0C8004D70FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -284,6 +286,7 @@
 				DD7238EB1ABBB0C8004D70FE /* Images.xcassets */,
 				DDB0A2D51AC2A9C7003BFF67 /* HomeSource.xcassets */,
 				DDC95AB01AC3C63600C3DB56 /* XungQuanh.xcassets */,
+				DD1B2CA01AC92AD100774D3E /* Detail.xcassets */,
 				DD7238DA1ABBB0C8004D70FE /* Supporting Files */,
 			);
 			path = RaoVat69;
@@ -620,6 +623,7 @@
 				DDC926A01ABBB17300CAF1CC /* Upload.xib in Resources */,
 				DDB0A2D61AC2A9C7003BFF67 /* HomeSource.xcassets in Resources */,
 				DD7238EC1ABBB0C8004D70FE /* Images.xcassets in Resources */,
+				DD1B2CA11AC92AD100774D3E /* Detail.xcassets in Resources */,
 				DD7238DE1ABBB0C8004D70FE /* InfoPlist.strings in Resources */,
 				DD7238E71ABBB0C8004D70FE /* Main.storyboard in Resources */,
 				DDC2E7E11ABC17DE00EF5582 /* GooglePlus.bundle in Resources */,
