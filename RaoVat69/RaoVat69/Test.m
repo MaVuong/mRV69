@@ -18,7 +18,7 @@
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [imgview setImageWithURL:[NSURL URLWithString:[self.dict valueForKey:@"photo"]]];
+    [imgview sd_setImageWithURL:[NSURL URLWithString:[self.dict valueForKey:@"photo"]]];
     lbbane.text=[NSString stringWithFormat:@"Name:%@",[self.dict valueForKey:@"name"]];
     lbbmail.text=[NSString stringWithFormat:@"Email: %@",[self.dict valueForKey:@"email"]];
     lbaccountype.text=[NSString stringWithFormat:@"AcountType:%@",[self.dict valueForKey:@"account"]];

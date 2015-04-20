@@ -41,11 +41,11 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <view tag="100" contentMode="scaleToFill" id="Nsv-kK-Y5t">
-                                            <rect key="frame" x="0.0" y="1" width="320" height="77"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="78"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cellbg" id="5hz-cp-Ek6">
-                                                    <rect key="frame" x="0.0" y="1" width="320" height="79"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="78"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tai nghe theo máy sonny xepia MH375 bluetooth chuyên dụng cho người thiểu năng" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0uy-SG-q2m">
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="605" y="-1998"/>
         </scene>
-        <!--View Controller-->
+        <!--Controller-->
         <scene sceneID="cQK-7r-Px2">
             <objects>
-                <viewController id="CZh-Ex-daA" sceneMemberID="viewController">
+                <viewController id="CZh-Ex-daA" customClass="DTXQController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hbI-mS-lUe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

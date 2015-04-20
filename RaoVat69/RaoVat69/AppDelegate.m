@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <GooglePlus/GooglePlus.h>
-
+#import "SDImageCache.h"
 
 @interface AppDelegate()<CLLocationManagerDelegate>
 @property (strong, nonatomic)CLLocationManager  *locationManager;
@@ -24,6 +24,13 @@
 {
    
     [UserGoole share];
+    
+    
+    {
+        [[SDImageCache sharedImageCache] clearDisk];
+        [[SDImageCache sharedImageCache] clearMemory];
+    }
+    
     
     [self performSelectorOnMainThread:@selector(RequestLocation) withObject:nil waitUntilDone:YES];
     [self RunNotification:application];
